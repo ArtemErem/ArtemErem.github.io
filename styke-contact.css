@@ -1,0 +1,590 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*------------------НАЧАЛО ТОПА--------------*/
+.top-header-contact {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 44px;
+}
+
+.top-info-contact {
+    background-image: url(img-contact/main-img.png);
+    margin-top: 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.info-heading-contact {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-top: 51px;
+    padding-bottom: 16px;
+}
+
+.info-paragraph-contact {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    width: 780px;
+    margin: 0 auto;
+    padding-bottom: 49px;
+}
+
+/*-------------------КОНЕЦ ТОПА---------------*/
+
+/*---------------------НАЧАЛО МЕДИУМА------------*/
+.medium-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-left-medium-contact {
+    margin-top: 135px;
+}
+
+.img-left-medium {
+    padding-bottom: 56px;
+}
+
+.heading-addres {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 24px;
+}
+
+.paragrapgh-addres-info {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+    width: 299px;
+    padding-bottom: 40px;
+}
+
+.heading-phone {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 24px;
+}
+
+.ul-phone-info {
+    list-style-type: none;
+    padding-bottom: 40px;
+    list-style-image: url(img-contact/left-phone.svg);
+    padding-left: 27px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.li-phone-info {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 16px;
+}
+
+.li-phone-info:last-of-type {
+    padding-bottom: 0;
+}
+
+.heading-service {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 24px;
+}
+
+.a-service-info {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    padding-bottom: 16px;
+}
+
+.a-service-info-first {
+    background-image: url(img-contact/left-wi-fi.svg);
+    padding-left: 38px;
+    background-repeat: no-repeat;
+}
+
+.a-service-info-second {
+    background-image: url(img-contact/left-message.svg);
+    padding-left: 38px;
+    background-repeat: no-repeat;
+}
+
+.a-service-info:last-of-type {
+    padding-bottom: 0;
+}
+
+.block-right-medium-contact {
+    margin-top: 57px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+}
+
+.block-big-input {
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.send-right {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 48px;
+
+}
+
+.p-info-right {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    padding-bottom: 8px;
+}
+
+
+.input-right {
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    border-radius: 10px;
+    padding-left: 36px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-right: 223px;
+    margin-bottom: 32px;
+}
+
+.textarea-right {
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    border-radius: 10px;
+    padding-top: 21px;
+    padding-left: 36px;
+    padding-right: 148px;
+}
+
+.botton-right {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.04em;
+    padding: 23px 179px;
+    margin-top: 95px;
+    border: 0;
+}
+
+/*--------------КОНЕЦ МЕДИУМ--------------*/
+
+/*--------------НАЧАЛО ФУТЕР--------------*/
+.map-container {
+    margin-top: 96px;
+}
+
+.footer {
+    background: #316099;
+    margin-top: 112px;
+}
+
+.footer-info {
+    padding-top: 91px;
+}
+
+.headinf-footer {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 340.96px;
+    padding-bottom: 32px;
+}
+
+.footer-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 494.77px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    padding: 15px 80px;
+    display: inline-block;
+    text-decoration: none;
+    align-self: center;
+}
+
+hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-top: 96px;
+}
+
+.footer-ol {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 113px;
+    margin-right: 114px;
+    margin-top: 64px;
+}
+
+.footer-li {
+    padding-right: 32px;
+    width: 316.09px;
+}
+
+.footer-li:last-of-type {
+    padding-right: 0;
+}
+
+.footer-prava {
+    margin-top: 64px;
+    padding-bottom: 64px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+/*-------------КОНЕЦ ФУТЕРА---------------*/
+
+/*-------------АДАПТИВ ПЛАНШЕТ-------------*/
+@media (max-width: 1024px) {
+
+    /*--------------НАЧАЛО ТОП-----------*/
+    .top-info-contact {
+        margin-top: 30px;
+        height: 250px;
+    }
+
+    .top-conatiner {
+        height: 250px;
+    }
+
+    .top-header-contact {
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 18px;
+    }
+
+    .info-heading-contact {
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 74px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+
+    .info-paragraph-contact {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: rgba(255, 255, 255, 0.6);
+        width: 520px;
+    }
+
+    /*-----------------КОНЕЦ ТОП------------*/
+
+    /*--------------НАЧАЛО МЕДИУМ-----------*/
+    .medium-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-left-medium-contact {
+        margin: 0 auto;
+        margin-top: 64px;
+    }
+
+    .block-right-medium-contact {
+        margin: 0 auto;
+        margin-top: 64px;
+    }
+
+    .send-right {
+        width: 178.15px;
+        padding-bottom: 14px;
+    }
+
+    .botton-right {
+        margin-top: 70px;
+    }
+
+    /*---------КОНЕЦ МЕДИУМ-----------*/
+
+    /*---------НАЧАЛО ФУТЕР------------*/
+    .footer {
+        margin-top: 64px;
+    }
+
+    .footer-info {
+        padding-top: 47px;
+        padding-left: 124px;
+    }
+
+    .footer-paragraph {
+        width: 336px;
+    }
+
+    .footer-a {
+        padding: 4px 28px;
+        margin-right: 123px;
+    }
+
+    hr {
+        margin-top: 64px;
+    }
+
+    .footer-ol {
+        flex-direction: column;
+        margin-left: 94px;
+    }
+
+    .footer-li {
+        padding-bottom: 25px;
+        width: 454px;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+
+    .footer-li:last-of-type {
+        padding-bottom: 0;
+    }
+
+    .footer-prava {
+        padding-left: 125px;
+    }
+}
+
+/*--------------АДАПТИВ ТЕЛЕФОН-----------*/
+@media (max-width: 768px) {
+    .block-right-medium-contact {
+        margin-top: 32px;
+    }
+
+    .top-header-contact {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .info-heading-contact {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        padding-top: 48px;
+        padding-bottom: 32px;
+    }
+
+    .info-paragraph-contact {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.6);
+        width: 341px;
+    }
+
+    .block-big-input {
+        width: 342.67px;
+        padding: 36px;
+        box-sizing: border-box;
+    }
+
+    .send-right {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        color: #1F3F68;
+        padding-bottom: 31px;
+    }
+
+    .p-info-right {
+        padding-bottom: 4px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        color: #1F3F68;
+        opacity: 0.8;
+        display: inline;
+    }
+
+    .input-right {
+        padding-top: 18px;
+        padding-bottom: 15px;
+        padding-right: 71px;
+        margin-bottom: 20px;
+    }
+
+    .textarea-right {
+        padding-right: 6px;
+        height: 92.52px;
+    }
+
+    .botton-right {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        padding: 13px 105px;
+        color: #FFFFFF;
+        margin-top: 46px;
+    }
+
+    /*-----------КОНЕЦ МЕДУМ----------*/
+
+    /*---------НАЧАЛО ФУТЕР-----------*/
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-info {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .headinf-footer {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 258px;
+        padding-top: 18px;
+        margin: 0 auto;
+    }
+
+    .footer-paragraph {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;
+        width: 343px;
+        padding-bottom: 33px;
+    }
+
+    .footer-a {
+        margin: 0 auto;
+    }
+
+    hr {
+        margin-top: 48px;
+    }
+
+    .footer-ol {
+        margin: 0;
+        margin-top: 32px;
+
+    }
+
+    .footer-li {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        width: 304px;
+    }
+
+    .footer-prava {
+        padding: 0;
+        margin-top: 37px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.4;
+        padding-bottom: 32px;
+    }
+}

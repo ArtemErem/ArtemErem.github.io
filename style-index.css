@@ -1,0 +1,684 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*----------------------ТОП НАЧАЛО-------------------*/
+.top-block {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.top-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-header {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+}
+
+.top-info {
+    margin-top: 115px;
+    background-image: url(img-index/top-main-img.png);
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    background-position: right top;
+}
+
+.top-info-heading {
+    width: 504px;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 32px;
+}
+
+.top-info-paragraph {
+    width: 425px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+
+.top-bottom {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px 50px;
+    display: inline-block;
+    margin-top: 71px;
+}
+
+/*-----------------------------ТОП КОНЕЦ-----------------------------*/
+
+
+/*------------------------------НАЧАЛО МЕДИУМ------------------------*/
+.medium-info {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    padding-top: 64px;
+}
+
+.medium-main-card {
+    display: flex;
+    margin-top: 64px;
+}
+
+.medium-card {
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.medium-card-img {
+    align-self: center;
+    padding-top: 44px;
+    padding-bottom: 51px;
+}
+
+.medium-card:last-of-type {
+    margin-right: 0px;
+}
+
+.medium-card-heading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    padding-left: 32px;
+    padding-right: 44px;
+    padding-bottom: 14px;
+}
+
+.medium-card-info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    padding-left: 32px;
+    padding-right: 58px;
+    padding-bottom: 30px;
+}
+
+.medium-card-a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+    padding-left: 32px;
+    padding-bottom: 44px;
+}
+
+/*----------------------------------КОНЕЦ МЕДИУМ---------------------------------*/
+
+/*----------------------------------НАЧАЛО ФУТЕР МЕДИУМ---------------------------*/
+.medium-footer-info {
+    margin-top: 64px;
+}
+
+.medium-footer-heading {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.medium-footer-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    margin: 0 auto;
+    width: 750px;
+    padding-top: 32px;
+}
+
+.main-img-info {
+    margin-top: 64px;
+}
+
+.small-medium-footer-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-img-info {
+    position: relative;
+}
+
+.main-info {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.small-medium-footer-img {
+    margin-top: 32px;
+}
+
+.left-img-info {
+    position: relative;
+}
+
+.left-info {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.right-img-info {
+    position: relative;
+}
+
+.right-info {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+/*---------------------------------КОНЕЦ МЕДИУМ ФУТЕР----------------------------*/
+
+/*---------------------------------НАЧАЛО ФУТЕР------------------------------------------*/
+.block-footer {
+    background: #316099;
+    margin-top: 112px;
+}
+
+.footer-full-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foote-info {
+    padding-top: 91px;
+}
+
+.footer-info-heading {
+    padding-bottom: 32px;
+    width: 340.96px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer-info-paragraph {
+    width: 494.77px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.papa-2 {
+    display: flex;
+}
+
+.footer-a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    display: block;
+    align-self: center;
+    padding: 15px 80px;
+    text-decoration: none;
+}
+
+.footer-hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+    margin-top: 96px;
+}
+
+.main-footer-list {
+    display: flex;
+    list-style-type: none;
+    padding-top: 64px;
+}
+
+.footer-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-left: 73px;
+    width: 316.98px;
+}
+
+.footer-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+/*-----------------------КОНЕЦ ФУТЕРА---------------------------*/
+
+/*-----------------------АДАПТИВ-------------------------------*/
+/*------------------------ДЛЯ ПЛАНШЕТА---------------------------*/
+@media (max-width: 1024px) {
+
+    /*-----ТОП-------*/
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .top-header {
+        padding-top: 55px;
+    }
+
+    .top-info {
+        background-position: right 180px;
+        background-size: 44%;
+    }
+
+    /*-------КОНЕЦ ТОПА--------*/
+
+    /*---------НАЧАЛО МЕДИУМА-----------*/
+    .medium-main-card {
+        flex-direction: column;
+    }
+
+    .medium-info {
+        width: 704px;
+        margin: 0 auto;
+    }
+
+    .gaga:last-of-type {
+        margin: 0 auto;
+    }
+
+    .medium-card {
+        margin-right: 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+        width: 334.97px;
+        margin-bottom: 32px;
+    }
+
+    .medium-card:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .medium-card-img {
+        padding: 0;
+        padding-top: 41px;
+        padding-bottom: 48px;
+    }
+
+    .medium-card-heading {
+        padding: 0;
+        padding-left: 30px;
+        padding-right: 41px;
+        padding-bottom: 13px;
+    }
+
+    .medium-card-info {
+        padding: 0;
+        padding-right: 55px;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+
+    .medium-card-a {
+        padding: 0;
+        padding-left: 29px;
+    }
+
+    /*-------------КОНЕЦ МЕДИУМА-------------*/
+
+    /*-------------НАЧАЛО МЕДИУМ ФУТЕР----------*/
+    .medium-footer-paragraph {
+        width: 520px;
+    }
+
+    .main-medium-footer-img {
+        width: 100%;
+    }
+
+    .left-medium-footer-img {
+        width: 100%;
+    }
+
+    .right-medium-footer-img {
+        width: 100%;
+    }
+
+    .left-img-info {
+        margin-right: 32px;
+    }
+
+    /*------------КОНЕЦ МЕДИУМ ФУТЕР----------*/
+
+    /*--------------НАЧАЛО ФУТЕРА--------------*/
+    .foote-info {
+        padding-top: 42px;
+        padding-left: 112px;
+    }
+
+    .footer-info-heading {
+        width: 336px;
+    }
+
+    .footer-info-paragraph {
+        width: 336px;
+    }
+
+    .footer-a {
+        padding: 3px 30px;
+        margin-right: 124px;
+        margin-right: 80px;
+        margin-top: 81px;
+    }
+
+    .main-footer-list {
+        flex-direction: column;
+    }
+
+    .footer-list {
+        padding-left: 112px;
+        width: 455px;
+        padding-bottom: 25px;
+    }
+
+    .footer-list:last-of-type {
+        padding-bottom: 0;
+    }
+
+    .footer-paragraph {
+        padding-left: 109px;
+    }
+}
+
+/*-----------------АДАПТИВ ДЛЯ ТЕЛЕФОНА-------------------*/
+@media (max-width: 768px) {
+
+    /*------------------ТОП----------------------------*/
+    .top-block {
+        height: 376px;
+    }
+
+    .top-header {
+        padding-top: 24px;
+    }
+
+    .top-info {
+        background-image: none;
+    }
+
+    .top-info-heading {
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #1F3F68;
+        margin: 0 auto;
+        padding-bottom: 12px;
+        width: 343px;
+    }
+
+    .top-info {
+        margin-top: 19px;
+    }
+
+    .top-info-paragraph {
+        width: 343px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #1F3F68;
+        opacity: 0.6;
+        margin: 0 auto;
+    }
+
+    .papa {
+        display: flex;
+        margin-top: 25px
+    }
+
+    .top-bottom {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 26px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 3px 19px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /*------------------КОНЕЦ ТОПА-----------------------*/
+
+    /*------------------НАЧАЛО МЕДИУМ---------------------*/
+    .medium-info {
+        width: 341px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        padding-top: 48px;
+    }
+
+    .medium-main-card {
+        margin-top: 32px;
+    }
+
+    .medium-card-a {
+        padding-bottom: 21px;
+    }
+
+    /*-------------------------КОНЕЦ МЕДИУМ------------------------*/
+
+    /*--------------------------НАЧАЛО ФУТЕР МЕДИА---------------------*/
+    .medium-footer-heading {
+        width: 343px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        margin: 0 auto;
+    }
+
+    .medium-footer-paragraph {
+        width: 343px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #222222;
+        margin: 0 auto;
+    }
+
+    .main-img-info {
+        margin-top: 82px;
+    }
+
+    .main-info {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        color: #FFFFFF;
+        top: 16px;
+        right: 16px;
+    }
+
+    .small-medium-footer-img {
+        flex-direction: column;
+        margin-top: 13px;
+    }
+
+    .left-img-info {
+        margin: 0;
+    }
+
+    .left-info {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        top: 26px;
+        left: 16px;
+    }
+
+    .right-img-info {
+        margin-top: 16px;
+    }
+
+    .right-info {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        left: 16x;
+        color: #FFFFFF;
+    }
+
+    /*-----------------КОНЕЦ МЕДИУМ ФУТЕР---------------*/
+
+    /*-----------------НАЧАЛО ФУТЕР-------------------*/
+    .block-footer {
+        margin-top: 64px;
+    }
+
+    .footer-full-top {
+        flex-direction: column;
+    }
+
+    .foote-info {
+        padding: 0;
+        padding-top: 18px;
+    }
+
+    .footer-info-heading {
+        width: 343px;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+    }
+
+    .footer-info-paragraph {
+        width: 343px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;
+        margin: 0 auto;
+    }
+
+    .papa-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-a {
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .main-footer-list {
+        padding-top: 32px;
+    }
+
+    .footer-list {
+        width: 304px;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    .footer-paragraph {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        padding-bottom: 32px;
+        padding-top: 37px;
+    }
+}
